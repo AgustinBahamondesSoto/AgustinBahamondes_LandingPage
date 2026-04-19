@@ -1,0 +1,118 @@
+Prueba n°1 Programación Front End
+Prof. Manuel Reveco C.
+lunes,13 de abril de 2026
+Fecha de entrega: lunes,20 de abril de 2026
+Hora máxima de entrega: 15:20 horas
+
+
+Rut	22354062-7
+Nombre	Agustín Bahamondes Soto
+
+Puntaje Total	   
+   70 Pts	Puntaje
+Obtenido		Nota	
+
+INSTRUCCIONES
+Lea cuidadosamente estas instrucciones antes de contestar:
+
+
+•	La nota 4,0 se obtiene logrando un 60% del puntaje total de 70 Pts.
+•	Preocúpese en forma especial de la redacción, ortografía y legibilidad en sus respuestas.
+•	Una vez terminada su prueba debe enviar el proyecto comprimido a través de la plataforma de AAI, donde se indica como “primera evaluación”
+•	Recuerde que es su responsabilidad verificar que lo que está enviando corresponde a lo solicitado, ya que eso es lo que se evalúa. 
+•	La copia o plagio será evaluada con nota 1.0.
+•	En caso de ser necesario será llamado a interrogación.
+
+
+
+
+
+
+Pregunta (70 puntos)
+
+	Crear un sitio con su Primer nombre y apellido Paterno en esta carpeta deben quedar sus páginas y dos carpetas dentro de esta, una llamada imágenes, donde debe guardar las imágenes que utilice en el sitio. Además, de una carpeta llamada CSS, donde debe dejar los archivos css de su sitio, si es que utiliza.
+
+La empresa de jardinería “Huerto feliz”, necesita construir un landing page para mostrar la siguiente información, según versión de su dueño:
+
+Los servicios que ofrece, corte de pasto, poda de árboles, jardinería en general, cada elemento debe tener una foto, una reseña del servicio y el precio base, indicando que puede variar según lo que se requiera, se pide utilizar un carrusel para mostrar.
+
+La historia de la empresa (ya tiene 10 años en el mercado), incluya fotos y los testimonios de clientes (al menos 3 clientes), se pide utilizar elementos llamados cards. 
+
+Una sección donde estén los datos de su empresa, como misión y valor, que incluya al menos 2 imágenes, el mapa de donde se encuentra, cómo llegar, teléfonos y correo.
+
+Y un formulario de contacto para consultas, que debe incluir: nombre, correo, teléfono de contacto y donde se pueda escribir el texto referente a la consulta. El formulario debe validar que todos los campos sean obligatorios e indicar si falta alguno para ser completado.
+
+La página debe contener al final de ella el número de teléfono de la empresa y la información de las redes sociales de la empresa. Además, los datos del desarrollador de la página. 
+
+Se pide el control de versiones, mínimo 4, donde se respalden cambios del proyecto.
+	
+
+
+
+Recuerde:
+-	utilizar bootstrap para realizar un buen diseño. Todo esto implica utilizar colores, tamaños de letras, justificación de textos, semántica de html, etc.
+-	La página será revisada en google Chrome, partiendo con un zoom al 100%, pero debe ser responsiva.
+-	Se evaluará además de lo solicitado, la utilización y combinación de colores, disposición de elementos en la o las paginas, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Objetivo: Desarrollar un landing page funcional y visualmente atractivo para la empresa de jardinería, aplicando conocimientos básicos de HTML, CSS y control de versiones. El sitio web deberá cumplir con los siguientes criterios:
+Requisitos del Proyecto:
+1.	Estructura y contenido:
+o	Identificar y utilizar correctamente los elementos de HTML basándose en un template creado.
+o	Construir una estructura HTML organizada y semántica, siguiendo un diseño preestablecido.
+2.	Diseño y estilo:
+o	Aplicar propiedades de CSS3 para lograr un diseño atractivo y coherente.
+o	Utilizar Bootstrap para mejorar la apariencia y asegurar que el sitio sea responsivo.
+3.	Funcionalidad y usabilidad:
+o	Implementar un carrusel de imágenes en la sección de los servicios.
+o	Incluir imágenes, reseñas y precios para cada elemento de los servicios.
+o	Utilizar cards para mostrar la historia de la empresa con fotos y testimonios de clientes.
+o	Incluir una sección con información de la sucursal, que contenga imágenes, mapas de ubicación, teléfonos y correos de contacto.
+o	Crear un formulario de contacto con validación obligatoria de campos, y escribir el mensaje correspondiente.
+4.	Control de versiones y respaldo:
+o	Utilizar herramientas de control de versiones en la nube para gestionar cambios y respaldar el proyecto (mínimo 4).
+5.	Criterios de evaluación adicionales:
+o	Diseño atractivo con una combinación de colores armoniosa.
+o	Buena disposición de los elementos en la página.
+o	Adaptabilidad y correcta visualización en Google Chrome al 100% de zoom y en dispositivos móviles.
+
+Debe subir la carpeta comprimida y dentro un archivo de block de notas con la ruta a su github, para revisar el control de versiones.
+
+
+
+
+________________________________________
+Escala de Apreciación:
+Criterio	Nivel Bajo (1 pts)	Nivel Medio (3 pts)	Nivel Alto (5 pts)	Nivel Excelente (7 pts)
+Identificación de elementos HTML	No se identifican correctamente los elementos HTML en el template.	Se identifican algunos elementos, pero con errores o falta de comprensión.	Se identifican correctamente los elementos y se aplican adecuadamente.	Identificación precisa y aplicación óptima de los elementos HTML.
+Construcción de estructura HTML	Estructura desorganizada, sin coherencia con el diseño.	Estructura básica, pero con algunos errores de jerarquía y organización.	Estructura clara y bien organizada, cumpliendo con el diseño.	Estructura semántica y optimizada, siguiendo buenas prácticas.
+Aplicación de CSS3	Sin estilos o muy básicos.	Uso de estilos con inconsistencias o sin armonía visual.	Diseño atractivo y alineado con el template.	Estética pulida, con personalización y buena armonización visual.
+Uso de Bootstrap	No se usa o se usa incorrectamente.	Aplicado parcialmente con errores.	Uso correcto y funcional de Bootstrap.	Implementación avanzada con personalización efectiva.
+Carrusel de imágenes	No implementado o con fallos graves.	Funciona, pero con errores o sin optimización.	Carrusel funcional y bien integrado.	Carrusel fluido con transiciones óptimas y buen diseño.
+Cards de historia y testimonios	No implementados o desorganizados.	Presentes, pero con diseño deficiente o sin cohesión.	Cards bien distribuidos y con coherencia visual.	Diseño atractivo con interactividad y buena distribución de contenido.
+Información de sucursales
+
+	Datos incompletos o mal organizados.	Sección funcional, pero sin mapas o con errores de organización.	Información completa y bien organizada.	Sección bien diseñada con mapas interactivos y presentación optimizada.
+
+
+
+
+Formulario de contacto	No funciona o tiene errores graves.	Funciona, pero sin validaciones correctas o con problemas de diseño.	Formulario funcional con validaciones adecuadas.	Validaciones robustas, diseño intuitivo y experiencia de usuario óptima.
+Control de versiones	No se usa o se usa incorrectamente.	Uso básico con pocos commits o sin una estructura clara.	Control de versiones adecuado con historial de cambios bien documentado.	Gestión eficiente con buenas prácticas y respaldo adecuado.
+Diseño general y responsividad	No es responsivo ni atractivo visualmente.	Parcialmente responsivo, con errores de diseño o usabilidad.	Diseño responsivo y visualmente atractivo.	Experiencia de usuario optimizada en todos los dispositivos.
+

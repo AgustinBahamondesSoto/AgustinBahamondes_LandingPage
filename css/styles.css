@@ -1,14 +1,82 @@
-.fira-sans-regular-italic {
+﻿.fira-sans-regular-italic {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
-
-#titulo {
-    background-color: #f0f0f0;
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #f4f7f1;
+  color: #1f4233;
 }
 
-body {
-    background-color: #efefef;
+.header-top {
+  background-color: #eff8ef;
+  border-bottom: 1px solid #d3e4d6;
+}
+
+#titulo {
+  color: #1b533d;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.lead {
+  color: #4f6f5a;
+}
+
+.nav-link {
+  color: #1e4a34;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #2f6f4d;
+}
+
+section h2 {
+  color: #1f4f34;
+}
+
+.carousel-caption {
+  background: rgba(15, 48, 28, 0.65);
+  padding: 1rem;
+}
+
+.bg-overlay {
+  background: rgba(15, 48, 28, 0.7);
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #d8e3d8;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 220px;
+}
+
+footer.footer-site {
+  background-color: #1c3328;
+  color: #d9e8db;
+}
+
+footer.footer-site p {
+  margin-bottom: 0.35rem;
+}
+
+.ratio iframe {
+  border: 0;
+}
+
+button.btn-success {
+  background-color: #2f6f4d;
+  border-color: #2f6f4d;
+}
+
+button.btn-success:hover {
+  background-color: #24563c;
+  border-color: #24563c;
 }
