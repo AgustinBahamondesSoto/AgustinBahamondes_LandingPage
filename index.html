@@ -189,8 +189,8 @@
                     </div>
                     <div class="col-md-6">
                         <label for="telefono" class="form-label">Teléfono de contacto</label>
-                        <input type="tel" class="form-control" id="telefono" placeholder="+56 9 1234 5678" required>
-                        <div class="invalid-feedback">Por favor ingresa un teléfono.</div>
+                        <input type="tel" class="form-control" id="telefono" placeholder="56912345678" inputmode="numeric" pattern="[0-9]{7,15}" maxlength="15" required>
+                        <div class="invalid-feedback">Por favor ingresa un teléfono válido (solo números).</div>
                     </div>
                     <div class="col-12">
                         <label for="mensaje" class="form-label">Consulta</label>
@@ -217,6 +217,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script>
+        // Función autoejecutable para aislar las variables
+        (() => {
+            'use strict'
+
+            // 1. Busca todos los formularios que tengan la clase 'needs-validation'
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // 2. Transforma el resultado en un array y los recorre uno por uno
+            Array.from(forms).forEach(form => {
+                
+                // 3. 'Escucha' el momento exacto en que el usuario intenta enviar (submit)
+                form.addEventListener('submit', event => {
+                    
+                    // 4. Si el formulario NO es válido (ej. campos required vacíos)
+                    if (!form.checkValidity()) {
+                        event.preventDefault() // Evita que la página se recargue/envíe
+                        event.stopPropagation() // Detiene la propagación del evento
+                    }
+
+                    // 5. Finalmente, le añade la clase 'was-validated' que activa los colores rojos/verdes de tu CSS de Bootstrap
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
 </body>
 
 </html>
