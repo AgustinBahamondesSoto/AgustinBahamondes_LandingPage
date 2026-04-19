@@ -189,7 +189,8 @@
                     </div>
                     <div class="col-md-6">
                         <label for="telefono" class="form-label">Teléfono de contacto</label>
-                        <input type="tel" class="form-control" id="telefono" placeholder="56912345678" inputmode="numeric" pattern="[0-9]{7,15}" maxlength="15" required>
+                        <input type="tel" class="form-control" id="telefono" placeholder="56912345678"
+                            inputmode="numeric" pattern="[0-9]{7,15}" maxlength="15" required>
                         <div class="invalid-feedback">Por favor ingresa un teléfono válido (solo números).</div>
                     </div>
                     <div class="col-12">
@@ -228,10 +229,10 @@
 
             // 2. Transforma el resultado en un array y los recorre uno por uno
             Array.from(forms).forEach(form => {
-                
+
                 // 3. 'Escucha' el momento exacto en que el usuario intenta enviar (submit)
                 form.addEventListener('submit', event => {
-                    
+
                     // 4. Si el formulario NO es válido (ej. campos required vacíos)
                     if (!form.checkValidity()) {
                         event.preventDefault() // Evita que la página se recargue/envíe
